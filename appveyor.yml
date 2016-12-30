@@ -18,5 +18,5 @@ deploy:
     app_offline: false
     on:
       branch: master
-      platform: x86
+      platform: Any CPU
       configuration: debug
