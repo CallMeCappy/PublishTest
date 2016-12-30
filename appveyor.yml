@@ -17,5 +17,3 @@ deploy:
     app_offline: false
     on:
       branch: master
-      platform: Any CPU
-      configuration: debug
