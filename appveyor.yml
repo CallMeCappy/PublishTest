@@ -10,10 +10,10 @@ deploy:
   - provider: WebDeploy
     server: http://web01.vcloud01.nextchapter-ecommerce.com/MSDEPLOYAGENTSERVICE
     website: development.nextchapter-ecommerce.com
-    username: webdeploy
-    password: dJfCSv4gUbXQMj0
+    username: Administrator
+    password: rAm8fw4yxnmo
     ntlm: true
     remove_files: true
-    app_offline: false
+    app_offline: true
     on:
       branch: master
